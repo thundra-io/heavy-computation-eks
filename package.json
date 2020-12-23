@@ -1,0 +1,20 @@
+{
+  "name": "heavy-computation-eks",
+  "version": "0.1.0",
+  "bin": {
+    "heavy-computation-eks": "bin/heavy-computation-eks.js"
+  },
+  "scripts": {
+    "bootstrap": "cdk bootstrap",
+    "deploy": "cdk deploy"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.66.0",
+    "aws-cdk": "1.66.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-eks": "^1.66.0",
+    "@aws-cdk/core": "1.66.0"
+  }
+}
